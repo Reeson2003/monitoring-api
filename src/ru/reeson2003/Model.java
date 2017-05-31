@@ -12,4 +12,6 @@ public interface Model {
     String getModuleName();
     List<Parameter> getParameters();
     Parameter getParameter(String name);
+    void addParameter(String name);
+    void removeParameter(String name);
 }

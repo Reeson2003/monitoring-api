@@ -22,4 +22,8 @@ public interface Parameter {
     boolean getRequestStatus();
 
     void setRequestStatus(boolean requestStatus);
+
+    String getConfiguration();
+
+    void setConfiguration(String configuration);
 }
